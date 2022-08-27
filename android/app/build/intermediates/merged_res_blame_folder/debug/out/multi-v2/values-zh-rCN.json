@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/romu/Desktop/work/awesomeProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/romu/Desktop/work/FirstMobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/romu/.gradle/caches/transforms-3/48e2a0365004709cfebc7ee6abd455fc/transformed/jetified-play-services-base-17.5.0/res/values-zh-rCN/values.xml",

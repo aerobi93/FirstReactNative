@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/romu/Desktop/work/awesomeProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
+            "outputFile": "/home/romu/Desktop/work/FirstMobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
                     "source": "/home/romu/.gradle/caches/transforms-3/a5da391e889210c4d2ba1ae6744f6033/transformed/appcompat-1.4.1/res/values-ar/values-ar.xml",

@@ -20,7 +20,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-
+import {API_KEY} from "env";
 import  Header  from './awesomeProject/header';
 import {dayDisplay, searchTempMax, searchTempMin} from "./awesomeProject/utils"
 
@@ -42,7 +42,7 @@ const App = () => {
 
 
 const researchTown  = (newTown) => {
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${newTown}&appid=3571c0352c17d542004999a575b6f178`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${newTown}&appid=${env.API_KEY}`)
   .then(res => res.json())
   .then (json =>  {
     setLat(json.coord.lat)
@@ -56,7 +56,7 @@ const researchTown  = (newTown) => {
 
   useEffect(() => {
     if (town) {
-      fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&lang=fr&appid=3571c0352c17d542004999a575b6f178&unit=Celsius`, {
+      fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&lang=fr&appid=${API_KEY}&unit=Celsius`, {
         method : 'GET'
       })
       .then(res => res.json())
